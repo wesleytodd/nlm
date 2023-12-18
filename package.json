@@ -1,0 +1,19 @@
+{
+  "name": "nlm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "nlm": "./nlm"
+  },
+  "scripts": {
+    "start": "verdaccio --config ./config.js --listen 1234"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "verdaccio": "^5.4.0",
+    "yargs": "^17.3.1"
+  }
+}
